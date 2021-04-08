@@ -27,13 +27,13 @@ test("can set id", () => {
 test("can set email", () => {
     const testval = "test@gmail.com";
     const e = new employee("John", 1, testval);
-    expect(e.getEmail()).toBe(testval);
+    expect(e.getemail()).toBe(testval);
 });
 
 test("can get email via getemail()", () => {
     const testval = "test@gmail.com";
     const e = new employee("John", 1, testval);
-    expect(e.getEmail()).toBe(testval);
+    expect(e.getemail()).toBe(testval);
 });
 
 test("can get id via getid()", () => {
